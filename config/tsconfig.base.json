@@ -20,6 +20,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
+    "ignoreDeprecations": "5.0",
     "jsx": "react-jsx"
   }
 }
