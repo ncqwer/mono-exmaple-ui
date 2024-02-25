@@ -10,7 +10,7 @@ module.exports.updatePullRequest = async (content) => {
   };
 
   const response = await fetch(
-    `https://api.github.com/repos/ncqwer/github_action_playground/pulls/${pullRequestNumber}`,
+    `https://api.github.com/repos/ncqwer/mono-exmaple-ui/pulls/${pullRequestNumber}`,
     {
       method: 'PATCH',
       headers: {

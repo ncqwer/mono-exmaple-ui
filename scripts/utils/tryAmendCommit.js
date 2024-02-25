@@ -6,6 +6,7 @@ module.exports.tryAmendCommit = async (forceNew = false) => {
   if (!forceNew && count > 0) {
     await execCommand('git add . && git commit -q --amend --no-edit');
   } else {
+    // why 22
     const ans = await execCommand(
       `git add . && git commit -q -m "doc: generate changelog by ci"`,
     );
